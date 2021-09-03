@@ -1,7 +1,7 @@
 import React from 'react'; // Technically don't need to do that, just for emphasizing that React is still being used under the hood here
 import Expenses from './components/Expenses/Expenses';
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: 'e1',
@@ -30,6 +30,6 @@ function App() {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
