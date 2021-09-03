@@ -1,3 +1,4 @@
+import React from 'react'; // Technically don't need to do that, just for emphasizing that React is still being used under the hood here
 import Expenses from './components/Expenses';
 
 function App() {
