@@ -1,4 +1,6 @@
 import React from 'react'; // Technically don't need to do that, just for emphasizing that React is still being used under the hood here
+
+import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
 const App = () => {
@@ -27,6 +29,7 @@ const App = () => {
   return (
     <div>
       <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
