@@ -18,7 +18,8 @@ const ExpenseForm = (props) => {
     //   ...userInput, // pulls
     //   enteredTitle: event.target.value, // override
     // });
-    // Safer way: ensure the Latest state snapshot
+
+    // Safer way: Ensure the Latest state snapshot (If it depends on the previous state)
     // setUserInput((prevState) => {
     //   return { ...prevState, enteredTitle: event.target.value };
     // });
